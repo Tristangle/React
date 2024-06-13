@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
 
           <p>
-            <a href="http://localhost:3000/mentions-legales.html">Mentions légales</a> | <a href="/contact">Formulaire de contact</a>
+            <a href="http://localhost:3000/mentions-legales.html">Mentions légales</a> | <a href="/Contact">Formulaire de contact</a>
           </p>
         </div>
       </footer>
