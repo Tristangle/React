@@ -85,8 +85,7 @@ export default function Sessions () {
     
     return (
         <div>
-        <h1>Nos Sessions d'Escape Game</h1>
-        <br/>
+        <h2>Nos Sessions d'Escape Game</h2>
         {sessions.map((session, index) => (
             <div key={index}>
                 <h2>{session.title}</h2>
