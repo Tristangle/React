@@ -6,7 +6,8 @@ import Reservation from './components/Reservation';
 import DetailsSessions from './components/DetailsSessions';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Mentions from './components/Mentions';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
     case "/Contact":
       component = <Contact/>
       break;
+    case "/Mentions":
+      component = <Mentions/>
   }
   return (
     <div className="App"> 
